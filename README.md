@@ -27,8 +27,6 @@ example.func1()
 ### features
 
 - fast compile
-- importing ".nitro" files
-- excute external nitro files
 - better data management (variables , classes , objects)
 - easy and fun to learn
 
