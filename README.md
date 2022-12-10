@@ -1,4 +1,3 @@
-<ح
 ![image](https://user-images.githubusercontent.com/76659587/206839876-629bd1b7-4214-4176-b0e6-21294bca6761.png)
 # nitro-programming-language
 
