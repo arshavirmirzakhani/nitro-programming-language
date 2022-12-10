@@ -7,7 +7,7 @@ and uses optimization for fast compile.
 ### syntax 
 
 nitro syntax is familiar to python syntax
-heres an example of a simple program in nitro :
+, heres an example of a simple program in nitro :
 
 ```
 word = "nitro"
