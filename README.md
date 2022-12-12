@@ -16,13 +16,6 @@ for i in range(len(word)):
   print(i)
 ```
 
-and also can import classes , objects , functions and variables from nitro files
-
-```
-import example.nitro
-
-example.func1()
-```
 
 ### features
 
