@@ -16,6 +16,19 @@ for i in range(len(word)):
   print(i)
 ```
 
+### how it works?
+
+nitro uses Flex/Bison for tokenising and parsing and uses LLVM for compiling
+
+```mermaid
+graph TD;
+  lexer(Flex Lexer.l)-- generator --> main(nitro.cpp);
+  parser(Bison Parser.y)-- generator --> main(nitro.cpp);
+  LLVM(LLVM) --> main(nitro.cpp)
+  main(nitro.cpp) --> compiler(nitro compiler)
+```
+
+
 
 ### features
 
