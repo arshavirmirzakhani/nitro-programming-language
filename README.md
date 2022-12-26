@@ -39,3 +39,8 @@ graph TD;
 ### development 
 
 remember that **this programming is in development and its not ready yet!** 
+
+- create lexer ✅
+- create parser ⬛
+- create AST ⬛
+- create compiler ⬛
