@@ -1,4 +1,4 @@
-![image](https://user-images.githubusercontent.com/76659587/206839876-629bd1b7-4214-4176-b0e6-21294bca6761.png)
+![banner nitro](https://user-images.githubusercontent.com/76659587/210961037-d1471c6d-9d62-48d0-9498-ec923a275677.png)
 # nitro-programming-language
 
 nitro is a programming language that programmed with c++ , Flex , Bison and uses LLVM compile system.
@@ -19,16 +19,6 @@ for i in range(len(word)):
 ### how it works?
 
 nitro uses Flex/Bison for tokenising and parsing and uses LLVM for compiling
-
-```mermaid
-graph TD;
-  lexer(Flex Lexer.l)-- generator --> main(nitro.cpp);
-  parser(Bison Parser.y)-- generator --> main(nitro.cpp);
-  LLVM(LLVM) --> main(nitro.cpp)
-  main(nitro.cpp) --> compiler(nitro compiler)
-```
-
-
 
 ### features
 
